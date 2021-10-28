@@ -58,6 +58,13 @@ sudo apt install python3-opencv
 
 <br/>
 
+### 웹캠 인식
+```
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights
+```
+
+<br/>
+
 ## Jetson Nano
 ## 해상도 설정
 ~/.xsessionrc 파일 수정 (제일 아래 부분에 코드 추가)
