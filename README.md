@@ -51,7 +51,7 @@ sudo apt install python3-opencv
 ```
 <br/>
 
-## 이미지 인식
+### 이미지 인식
 ```
 ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
@@ -66,7 +66,7 @@ sudo apt install python3-opencv
 <br/>
 
 ## Jetson Nano
-## 해상도 설정
+### 해상도 설정
 ~/.xsessionrc 파일 수정 (제일 아래 부분에 코드 추가)
 ```
 echo "xrandr --fb 1280x720" >> ~/.xsessionrc
@@ -75,7 +75,7 @@ source ~/.xsessionrc
 
 <br/>
 
-## 팬 설정
+### 팬 설정
 ```
 sudo sh -c 'echo 100 > /sys/devices/pwm-fan/target_pwm'
 ```
