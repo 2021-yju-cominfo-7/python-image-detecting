@@ -42,6 +42,16 @@ usage: ./darknet <function>
 - docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 - developer.nvidia.com/cuda-11.1.0-download-archive?target_os=Linux&target_arch=x86_64&targetdistro=Ubuntu&target_version=1804&target_type=debnetwork
 
+* version check
+```
+cd /usr/local
+ls
+```
+```
+export PATH=/usr/local/cuda-10/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+
 <br/>
 
 ## OpenCV
